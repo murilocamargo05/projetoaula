@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>
+            Pagina Principal
+        </title>
+        <link rel="stylesheet" th:href="@{/css/index.css}">
+        <script th:src="@{/js/index.js}"></script>
+    </head>
+    <body>
+        <h1>
+            EXEMPLO PAGINA!
+        </h1>
+        <button onclick="ola()">Ola</button>
+        <img th:src="@{/img/pikachu.jpg}" alt="Um pikachu">
+        <ul>
+            <li><a th:href="@{/pagina1}">PAGINA 1</a></li>
+            <li><a th:href="@{/pagina2}">PAGINA 2</a></li>
+            <li><a th:href="@{/pagina3}">PAGINA 3</a></li>
+            <li><a th:href="@{/calc}">Calculadora</a></li>
+        </ul>
+    </body>
+</html>
